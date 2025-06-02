@@ -1,0 +1,60 @@
+.cells{
+    height: 12.5vh;
+    width: 12.5vw;
+    display: flex;
+    background-color: #77ed77;
+    color: red;
+    padding : 35px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+#board{
+    display: grid;
+    height: max-content;
+    width :100vw;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    background-color: blanchedalmond;
+    gap: 10px;
+    justify-content: center;
+
+    
+}
+#container{
+    height: 80vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: aqua;
+}
+h2{
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+#message{
+    height:100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color : white
+}
+
+#reset{
+    height : 20px;
+    background-color: black;
+    color:white;
+    width: max-content;
+    justify-content: right;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
